@@ -1,0 +1,22 @@
+
+/* Background image for login page */
+body.login-page {
+  background-image: url("../images/grad-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Login card style */
+.login-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Dashboard header image */
+.header-img {
+  width: 60px;
+  margin-right: 10px;
+}

@@ -1,0 +1,15 @@
+<!-- templates/not_approved.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Access Denied</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <div class="container mt-5 text-center">
+    <h3 class="text-danger">Access Denied</h3>
+    <p>Your account has not been approved by the super admin yet.</p>
+    <a href="{% url 'logout' %}" class="btn btn-secondary mt-3">Logout</a>
+  </div>
+</body>
+</html>
